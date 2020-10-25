@@ -100,7 +100,7 @@ defaults:
       read_time: true
       comments: true
       disqus:
-        shortname: "www-abiaryan-com"
+        shortname: "www-abiaryan-com."
       share: true
       related: true
   # _pages
