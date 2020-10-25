@@ -101,7 +101,7 @@ defaults:
       comments:
         provider: "disqus"
         disqus:
-          shortname: "www-abiaryan-com"
+          shortname: "abiaryan"
       comments: true
       share: true
       related: true
