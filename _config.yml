@@ -70,9 +70,8 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/abi-aryan"
     - label: "Email"
-      icon: "fab fa-fw fa-email"
+      icon: "fab fa-fw fa-email" #No icon for Email"
       url: "mailto: hello@abiaryan.com"
-    
     - # label: "Instagram"
       # icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -85,6 +84,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/abi-aryan"
+
     - # label: "Instagram"
       # icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
