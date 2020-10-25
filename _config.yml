@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Abi Aryan"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "A.I. Researcher studying Intelligent Agents | I write code to make computer software smarter 👩‍💻 ☕"
+  bio    : "A.I. Researcher studying Intelligent Agents 👩‍💻 ☕"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
