@@ -1,10 +1,13 @@
+---
+
 title: "State of AI Early 2019"
 categories:
   - Life
 tags:
   - tools
   - software
-  
+---
+
 Personal
 Since I often get asked for what tools do I use, here are all my tools in a single post:
 

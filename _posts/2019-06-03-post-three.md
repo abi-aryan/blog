@@ -1,9 +1,11 @@
+---
 title: "State of AI Early 2019"
 categories:
   - Machine Learning
 tags:
   - hopfield networks
   - deep learning
+---
 
 
 These are my notes from public reports on Artificial Intelligence:

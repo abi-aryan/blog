@@ -1,3 +1,4 @@
+---
 title: "Introduction to TensorLayer"
 categories:
   - Machine Learning
@@ -5,6 +6,7 @@ tags:
   - open source
   - large scale ML systems
   - deep learning
+---
 
 As we are moving towards the next leap in deep learning, there has been a lot of progress on the engineering front, esp the framework front. Within the past few years, we have seen a huge number of machine learning libraries and frameworks to enable us to build machine learning models — faster, scalable and accessible.
 
