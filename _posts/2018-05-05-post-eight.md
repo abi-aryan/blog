@@ -1,6 +1,6 @@
 ---
 
-title: "State of AI Early 2019"
+title: "Tools I recommend"
 categories:
   - Life
 tags:
