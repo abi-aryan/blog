@@ -99,11 +99,6 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-         provider: "facebook"
-         facebook:
-          appid: # optional
-          num_posts: 5
-          colorscheme: "light"
       share: true
       related: true
   # _pages
