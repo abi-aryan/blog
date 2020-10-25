@@ -98,9 +98,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       disqus:
-        shortname: "www-abiaryan-com."
+        shortname: "www-abiaryan-com"
       share: true
       related: true
   # _pages
