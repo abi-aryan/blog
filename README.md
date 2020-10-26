@@ -13,3 +13,10 @@ Update: Mon, Oct 26, 2020
 3. Write more blogposts and release them
 
 For more info, check [Progress](https://github.com/abi-aryan/blog/projects/1)
+
+Update: Mon, Oct 27, 2020
+- I finished editing the blogposts for all formatting issues caused by the Wordpress import. 
+- Added a custom feature i.e. date on the homepage for all recent posts.
+- Two blogposts need review to be considered complete. This is important but not urgent, will be considered while adding commenting platform.
+    - [x] Open Questions in Artificial Life (needs review) : Review includes answering these questions in a paragraph or so on each question
+    - [x] State of AI - Summer 2019 (needs review) : Review includes adding more information on the points mentioned in a paragraph or so on each topic
