@@ -13,7 +13,7 @@ As we are moving towards the next leap in deep learning, there has been a lot of
 
 When working with deep learning models however, this low-level architecture mastery for TensorFlow and the high-level architecture mastery for deep learning can seem like a ridiculously tall order.
 
-![abstraction gap](images/why-tensorlayer/1.png)
+![abstraction gap](/images/why-tensorlayer/1.png)
 
 It leads to an **abstraction gap** that demands for some bridging tools. These bridging tools need to fulfill few key requirements in order to be
 effective:
@@ -27,11 +27,11 @@ effective:
 
 Thus, over the past few years a few excellent **bridging tools and libraries** have been developed. These include **TensorLayer, Keras, TFLearn etc.**
 
-![wrappers](images/why-tensorlayer/2.png)
+![wrappers](/images/why-tensorlayer/2.png)
 
 But do they compare?
 
-![comparison](images/why-tensorlayer/3.png)
+![comparison](/images/why-tensorlayer/3.png)
 
 
 ## So what is TensorLayer?
@@ -45,32 +45,32 @@ that can be easily customized and assembled for tackling real-world machine lear
 
 1. It provides high-level state-of-the-art deep learning modules
 
-![high-level modules](images/why-tensorlayer/5.png)
+![high-level modules](/images/why-tensorlayer/5.png)
 
 2. It enables the users to build a model using native TensorFlow APIs
 
-![Using TFlow API](images/why-tensorlayer/6.png)
+![Using TFlow API](/images/why-tensorlayer/6.png)
 
 Also,
 
-![Simplified Implementation](images/why-tensorlayer/7.png)
+![Simplified Implementation](/images/why-tensorlayer/7.png)
 
 3. It enables the users to define their own computational operations
 
-![Custom Operations](images/why-tensorlayer/8.png)
+![Custom Operations](/images/why-tensorlayer/8.png)
 
 
 4. It enables the users to define their own training logic
 
-![Custom Training Logic](images/why-tensorlayer/9.png)
+![Custom Training Logic](/images/why-tensorlayer/9.png)
 
 5. The users can glue different modules together (e.g., connected with [TF-Slim](http://tensorlayer.readthedocs.io/en/latest/modules/layers.html#connect-tf-slim) and [Keras](http://tensorlayer.readthedocs.io/en/latest/modules/layers.html#connect-keras)).
 
-![Wrappers](images/why-tensorlayer/11.png)
+![Wrappers](/images/why-tensorlayer/11.png)
 
 6. It provides **zero-cost** abstraction (or negligible overhead)
 
-![Quick Comparison](images/why-tensorlayer/11.png)
+![Quick Comparison](/images/why-tensorlayer/11.png)
 
 
 7. It allows easy scaling of your models from laptops to clouds.
