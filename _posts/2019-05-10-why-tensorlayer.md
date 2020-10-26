@@ -13,7 +13,7 @@ As we are moving towards the next leap in deep learning, there has been a lot of
 
 When working with deep learning models however, this low-level architecture mastery for TensorFlow and the high-level architecture mastery for deep learning can seem like a ridiculously tall order.
 
-![abstraction gap](/images/why-tensorlayer/1.png)
+![abstraction gap](images/why-tensorlayer/1.png)
 
 It leads to an **abstraction gap** that demands for some bridging tools. These bridging tools need to fulfill few key requirements in order to be
 effective:
