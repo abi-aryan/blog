@@ -8,6 +8,7 @@ Update: Mon, Oct 26, 2020
     - [x] Open Questions in Artificial Life (due 28 Oct, needs review)
     - [x] State of AI - Summer 2019 (due 29 Oct, needs review)
     - [x] Why TensorLayer? (due 30 Oct, no review needed)
+    - [x] Associative Memory (due 31 Oct, no review needed)
 2. Activate my publications tab.
 3. Write more blogposts and release them
 
