@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Abi Aryan
-subtitle                 : "Limited Resources Only Limit Limited Brains"
+subtitle                 : #Limited Resources Only Limit Limited Brains#
 name                     : "Abi Aryan"
 url                      : "https://www.abiaryan.com/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
 repository               : "abi-aryan/blog" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 #logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
