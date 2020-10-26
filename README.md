@@ -6,3 +6,5 @@ Update: Mon, Oct 26, 2020
 1. Edit existing blogposts and insert pictures
 2. Activate my publications tab.
 3. Write more blogposts and release them
+
+For more info, check [Progress](https://github.com/abi-aryan/blog/projects/1)
