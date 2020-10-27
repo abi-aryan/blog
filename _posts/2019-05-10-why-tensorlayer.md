@@ -66,7 +66,7 @@ Also,
 
 5. The users can glue different modules together (e.g., connected with [TF-Slim](http://tensorlayer.readthedocs.io/en/latest/modules/layers.html#connect-tf-slim) and [Keras](http://tensorlayer.readthedocs.io/en/latest/modules/layers.html#connect-keras)).
 
-![Wrappers](images/why-tensorlayer/11.png)
+![Wrappers](/assets/post-images/why-tensorlayer/1.png)
 
 6. It provides **zero-cost** abstraction (or negligible overhead)
 
