@@ -28,21 +28,21 @@ training set.
 
 Generally associative memory network are represented by an energy function that looks something like this-
 
-![](images/associative-memory/1.png)
+![](/assets/post-images/associative-memory/1.png)
 
 and an update rule that looks something like this-
 
-![](images/associative-memory/2.png)
+![](/assets/post-images/associative-memory/2.png)
 
 where
 
-![](images/associative-memory/3.png)
+![](/assets/post-images/associative-memory/3.png)
 
 (*do not worry what these complex looking functions mean as of now — trust me they are not so complicated and aren’t useful to build a general understanding of this paper*)  **These conventional associative nets with these functions can store approximately 0.14N memories.** If one tries to store more patterns, several memories would converge together to create new patterns making the classification harder (there is even a term for that called Spurious Networks). However, we know that the size of the network and the number of memories stored hold a non-linear scaling relationship (proved in the paper). Thus, assuming this rule, we come up with a new class of associative models of higher order polynomial defined by the functions -
 
-![](images/associative-memory/4.png)
+![](/assets/post-images/associative-memory/4.png)
 
-![](images/associative-memory/5.png)
+![](/assets/post-images/associative-memory/5.png)
 
 and the update rule mentioned above. This new associative memory model was tested on XOR and it was found to be capable of solving the problem for higher order odd values of n (the interaction vertex of two or more nuerons). Then, they used another test case : MNIST (50000 training images, 10000 test images) and results proved that it works for n>=2 and interestingly the training time was faster than that in the case of ReLU on feed forward networks thus making it more efficient to train large training sets such as ImageNet. Additionally, **this model has an exponentially increasing capacity that allows one to store N^(n-1) models (>0.14N) which can mean better and faster image classification** due to higher number of stored patterns.
 
@@ -50,11 +50,11 @@ and the update rule mentioned above. This new associative memory model was teste
 
 The authors selected 25 randomly selected memories and trained them using rectified polynomial energy function of orders n= 2,3,20, 30.
 
-![](images/associative-memory/6.png)
+![](/assets/post-images/associative-memory/6.png)
 
 So it looks like this -
 
-![](images/associative-memory/7.png)
+![](/assets/post-images/associative-memory/7.png)
 
 As we can see, as n increases the memories have transitioned from a set of features to a set of prototypes at approximately n=20. Depending on your particular case, it might be easier to classify an image based on features and other better as a prototype. For the sake of an example, the exact species of canine (Labrador vs. German Shepherd) be classified using prototype based classification and cats vs dogs can use a feature based classification (though it must be a bit harder than that given dogs do come in all sizes and forms). So far this has only been applied to simple models like MNIST, but in general this computational regime remains largely unexplored. Any extension outside of simple MNIST experiments would be very interesting to confirm the proposition.
 
@@ -73,12 +73,12 @@ Using the above assumptions, the authors were able to create a construction such
 
 Where f(x) is the activation function from the visible layer to the hidden layer in a feedforward network and F(x) is the energy function of associative memory model.
 
-![](images/associative-memory/8.png)
+![](/assets/post-images/associative-memory/8.png)
 
 
 The result suggests that the activation function of feedforward network is equal to the derivative of the energy function of the associative model i.e. for every small change in x, F(x) changes by f(x). Thus, for various n the activation and energy function are related such that -
 
-![](images/associative-memory/9.png)
+![](/assets/post-images/associative-memory/9.png)
 
 Where RePn represents rectified polynomial of order n.
 
