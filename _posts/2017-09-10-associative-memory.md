@@ -1,7 +1,7 @@
 ---
 title: "Dense Associative Memory for Pattern Recognition"
 categories:
-  - Machine-Learning
+  - MachineLearning
 tags:
   - hopfield networks
   - deep learning
