@@ -1,7 +1,7 @@
 ---
 title: "Why TensorLayer?"
 categories:
-  - Machine Learning
+  - Machine-Learning
 tags:
   - open source
   - large scale ML systems
