@@ -43,11 +43,11 @@ that can be easily customized and assembled for tackling real-world machine lear
 
 ## How?
 
-1. It provides high-level state-of-the-art deep learning modules
+1 . It provides high-level state-of-the-art deep learning modules
 
 ![high-level modules](/assets/post-images/why-tensorlayer/5.png)
 
-2. It enables the users to build a model using native TensorFlow APIs
+2 . It enables the users to build a model using native TensorFlow APIs
 
 ![Using TFlow API](/assets/post-images/why-tensorlayer/6.png)
 
@@ -55,25 +55,25 @@ Also,
 
 ![Simplified Implementation](/assets/post-images/why-tensorlayer/7.png)
 
-3. It enables the users to define their own computational operations
+3 . It enables the users to define their own computational operations
 
 ![Custom Operations](/assets/post-images/why-tensorlayer/8.png)
 
 
-4. It enables the users to define their own training logic
+4 . It enables the users to define their own training logic
 
 ![Custom Training Logic](/assets/post-images/why-tensorlayer/9.png)
 
-5. The users can glue different modules together (e.g., connected with [TF-Slim](http://tensorlayer.readthedocs.io/en/latest/modules/layers.html#connect-tf-slim) and [Keras](http://tensorlayer.readthedocs.io/en/latest/modules/layers.html#connect-keras)).
+5 . The users can glue different modules together (e.g., connected with [TF-Slim](http://tensorlayer.readthedocs.io/en/latest/modules/layers.html#connect-tf-slim) and [Keras](http://tensorlayer.readthedocs.io/en/latest/modules/layers.html#connect-keras)).
 
 ![Wrappers](/assets/post-images/why-tensorlayer/10.png)
 
-6. It provides **zero-cost** abstraction (or negligible overhead)
+6 . It provides **zero-cost** abstraction (or negligible overhead)
 
 ![Quick Comparison](/assets/post-images/why-tensorlayer/1.png)
 
 
-7. It allows easy scaling of your models from laptops to clouds.
+7 . It allows easy scaling of your models from laptops to clouds.
 
 > In fact, it is because of these incredibly powerful features that TensorLayer was awarded the 2017 Best Open Source Software by the prestigious ACM Multimedia Society.
 
